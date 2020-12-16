@@ -1,0 +1,149 @@
+Question,A,B,C,D,Answer
+In which of the following Bayes Rule can be applied?,Solving Queries,Increasing Complexity,Answering Probabilistic Query,Decreasing Complexity,3
+A Local Structure is associated to which of the following?,Linear,Non Linear,Dependent,Independent,1
+How entries in Full Probability distribution calculated?,Variables,Information,Coordinates,Values,2
+The Partitions in Classifications of a High Entropy is,Pure,NotPure,Useful,Useless,2
+Which of the following process mentioned is not a Supervised Learning?,Principle Component Analysis,Linear Regression,Decision Tree,Naive Bayesian,1
+When number of training examples goes to infinity the model trained on that data will have,Higher variance,Lower variance,Same Variance,No Variance,2
+Which of the following describes what discriminative approaches try to model for w? ,"p(y, x)","p(w|x, w)","p(y|x, w)",p(y|x),3
+Maximum Likelihood Estimates are often undesirable because,They are Biased,They have High Variance,They are not consistent Estimators,They have Low Variance,2
+Specify which of the following can only be used when training data that are linearly separable?,Linear Hard-margin SVM,Linear Soft-margin SVM,Linear Logistic Regression.,Centroid Method,1
+The model obtained by applying linear regression on the identified subset of features may differ from the model obtained at the end of the process of identifying the subset during,Best - subset selection,Forward stepwise selection,Forward stage wise selection,Moderate - subset selection,3
+"A and B are two events. If P(A, B) decreases while P(A) increases, which of the following exists?",P(B) decreases,P(B|A) decreases,P(A|B) decreases,P(A) decreases,2
+Consider a point that is correctly classified and distant from the decision boundary. Which of the following methods will be unaffected by this point?,Nearest neighbour,SVM,Logistic regression,Linear regression,2
+"If N is the number of instances in the training dataset, nearest neighbours has a classification run time of",O(1),O( N ),O(log N ),O( N+1 ),3
+Predicting on whether will it rain or not tomorrow evening at a particular time is an example of .,Classification problem,Regression problem,Supervised Learning problem,Unsupervised Learning problem,1
+The measures developed for selecting the best split are often based on the degree of impurity of the child nodes. Which of the following is NOT an impurity measure?,Gini,Pruning,Entropy,Classification,2
+"When the size of the layers is increased in the Neural Network, What kind of impact it will have on bias and variance?","increases, increases","increases, decreases","decreases, increases","decreases, decreases",3
+"When compared with the VC dimension of a simple linear SCM, the VC dimension of a Perceptron is",Larger ,Smaller ,Same ,Not Same ,3
+"If the entropy is high,  the partitions in a classification are",Pure,Not Pure,Useless,Low Noise,2
+A measure of goodness of fit for the estimated regression equation is the,Multiple coefficient of determination,Mean square due to error,Mean square due to regression,Mean square due to coefficient values,3
+The average positive difference between computed and desired outcome value is,Root mean squared error,Mean squared error,Mean absolute error,Mean positive error,3
+A survey is taken from a randomly selected sample of 100 students on whether they had ever played Cricket.   25% (0.25) of the 100 students said they had played Cricket. Which one of the following statements about the number 0.25 is correct?,It is a sample proportion,It is a population proportion,It is a random number,It is an error,1
+Which of the following distance measures calculates the distance between two binary vectors?,Euclidean distance,Manhattan distance,Minkowski distance,Hamming distance,4
+Which of the following cross validation versions is suitable quicker cross-validation for very large datasets with hundreds of thousands of samples?,k-fold cross-validation,Leave-one-out cross-validation,Holdout method,Hamming validation,3
+Which algorithm is used for solving temporal probabilistic reasoning?,Hill-climbing search,Hidden markov model,Depth-first search,Breadth-first search,2
+How does the state of the process is described in HMM?,Literal,Single random variable,Single discrete random variable,Non Literal,1
+Which allows for a simple and matrix implementation of all the basic algorithm?,HMM,Restricted structure of HMM,Temporary model,Reality Model,2
+Which algorithm works by first running the standard forward pass to compute?,Smoothing,Modified smoothing,HMM,Depth-first search algorithm,2
+Which closely resembles propositional definite clause?,Resolution,Inference,Conjunction,First-order definite clauses,4
+Which is more suitable normal form to be used with definite clause?,Positive literal,Negative literal,Generalized modus ponens,Neutral Literal,3
+How to eliminate the redundant rule matching attempts in the forward chaining?,Decremental forward chaining,Incremental forward chaining,Data complexity,Data Redundancy,2
+How many possible sources of complexity are there in forward chaining?,1,2,3,4,3
+How the logic programming can be constructed?,Variables,Expressing knowledge in a formal language,Graph,Expression,2
+What form of negation does the prolog allows?,Negation as failure,Preposition,Substitution,Negation as success,1
+The process by which the brain incrementally orders actions needed to complete a specific task is referred as,Planning problem,Partial order planning,Full order planning,Complete order planning,2
+Which of the following search belongs to totally ordered plan search?,Forward state-space search,Hill-climbing search,Depth-first search,Breadth-first search,1
+What is the other name of each and every total-order plans?,Polarization,Linearization,Solarization,Partializtaion,2
+Which algorithm place two actions into a plan without specifying which should come first?,Full-order planner,Total-order planner,Semi-order planner,Partial-order planner,4
+"What is the advantage of totally ordered plan in constructing the plan?
+",Reliability,Flexibility,Easy to use,Easy to manage,2
+"Which provides agents with information about the world they inhabit?
+ 
+",Sense ,Perception ,Reading ,Hearing,2
+What is meant by predicting the value of a state variable from the past?,Specular reflection,Diffuse reflection,Gaussian filter,Smoothing,4
+What is the process of breaking an image into groups?,Edge Detection,Segmentation,Preprocessing,Smoothing,2
+Fuzzy logic is a form of,Two-valued logic,Crisp set logic,Many-valued logic,Binary set logic,3
+The truth values of traditional set theory and the fuzzy set is,"Either 0 or 1, between 0 & 1","Between 0 & 1, either 0 or 1","Between 0 & 1, between 0 & 1","Either 0 or 1, either 0 or 1",1
+The values of the set membership is represented by,Discrete Set,Degree of truth,Probabilities,Independent Set,2
+What is meant by probability density function?,Probability distributions,Continuous variable,Discrete variable,Probability distributions for Continuous variables,4
+Which is also called single inference rule?,Reference,Resolution,Reform,Reframe,2
+The adjective “first-order” distinguishes first-order logic from ,Representational Verification,Representational Adequacy,Higher Order Logic,Inferential Efficiency,3
+Which is not Familiar Connectives in First Order Logic?,and,if,or,not,4
+Which of the following is a widely used and effective machine learning algorithm based on the idea of bagging?,Decision Tree,Regression,Classification,Random Forest,4
+"When performing regression or classification, which of the following is the correct way to preprocess the data?",Normalize the data → PCA → training, PCA → normalize PCA output → training,Normalize the data → PCA → normalize PCA output → training,Normalize the data → PCA → normalize PCA output ,1
+Which of the following is a disadvantage of decision trees?,Factor analysis,Decision trees are robust to outliers,Decision trees are prone to be overfit ,Factor Generation,3
+Suppose you have trained a logistic regression classifier and it outputs a new example x with a prediction ho(x) = 0.2. This means,Our estimate for P(y=1 | x),Our estimate for P(y=0 | x) ,Our estimate for P(y=1 | x),Our estimate for P(y=0 | x),2
+What are PCA components in Sklearn?,Set of all eigen vectors for the projection space ,Matrix of principal components,Result of the multiplication matrix,Transpose of matrix,1
+When a sentence parser typically used for,It is used to parse sentences to check if they are utf-8 compliant.,It is used to parse sentences to derive their most likely syntax tree structures,It is used to parse sentences to assign POS tags to all tokens,It is used to check if sentences can be parsed into meaningful tokens,2
+"Name the decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility.",Decision Tree,Graph,Neural Network,Trees,1
+The process of forming general concept definitions from examples of concepts to be learned,Deduction,Abduction, Induction,Conjunction,3
+" Like the probabilistic view, which view allows us to associate a probability of membership with each classification.",Exemplar,Deductive,Classical,Inductive,1
+Data used to build a data processing model is,Validation data,Training data,Testing data,Hidden data,2
+Supervised learning and unsupervised clustering both require at least one,Hidden attribute.,Output attribute,Input attribute,Categorical attribute,3
+Database query is used to uncover this type of knowledge.,Deep,Shallow,Hidden,Multidimensional,2
+Supervised learning differs from unsupervised clustering in that supervised learning requires,At least one input attribute,Input attributes to be categorical,At least one output attribute,Output attributes to be categorical,3
+A structure designed to store data for decision support,Operational database,Flat file,Decision Tree,Data warehouse,4
+A nearest neighbour approach is best used to,With large-sized datasets,When irrelevant attributes have been removed from the data,When a generalized model of the data is desirable,When an explanation of what has been found is of primary importance,2
+"If a customer is spending more than expected, the customer’s intrinsic value is",Greater than their actual value,Less than or equal to their actual value,Less than their actual value,Equal to their actual value,3
+Classification problems are distinguished from estimation problems in that ,Classification problems require the output attribute to be numeric,Classification problems require the output attribute to be categorical,Classification problems do not allow an output attribute,Classification problems are designed to predict future outcome,2
+The average positive difference between computed and desired outcome values,Root mean squared error,Mean squared error,Mean absolute error,Mean positive error,3
+"Given desired class C and population P, lift is defined as",The probability of class C given population P divided by the probability of C given a sample taken from the population,The probability of  population P given a sample taken from P,The probability of class C given a sample taken from population P,The probability of class C given a sample taken from population P divided by the probability of C within the entire population P,4
+"Given a rule of the form IF X THEN Y, rule confidence is defined as the conditional probability that",Y is true when X is known to be true,X is true when Y is known to be true,Y is false when X is known to be false,X is false when Y is known to be false,1
+The K-Means algorithm terminates when,A user-defined minimum value for the summation of squared error differences between instances and their corresponding cluster centre is seen,The cluster centres for the current iteration are identical to the cluster centres for the previous iteration,The number of instances in each cluster for the current iteration is identical to the number of instances in each cluster of the previous iteration,The number of clusters formed for the current iteration is identical to the number of clusters formed in the previous iteration,2
+A genetic learning operation that creates new population elements by combining parts of two or more existing elements,Selection,Mutation,Crossover,Absorption,3
+The computational complexity as well as the explanation offered by a genetic algorithm is largely determined by the,Fitness function,Techniques used for crossover and mutation,Training data,Population of elements,1
+The best approach to find all possible interactions among a set of attributes.,Decision tree,Association rules,K-Means algorithm,Genetic Learning,1
+The process which removes redundancies that may be present in a data model is,Abstraction,Granularization,Standardization,Normalization,4
+The level of detail of the information stored in a data warehouse is ,Granularity,Scope,Functionality,"Level of query
+
+",1
+The purpose of an intersection entity is to replace,Two one-to-one relationships with a one-to-many relationship,Two one-to-many relationships with one many-to-many relationship,A many-to-many relationship with two one-to-many relationships ,"A one-to-many relationship with two one-to-one relationships
+
+",3
+Selecting data so as to assure that each class is properly represented in both the training and test set,Cross validation,Stratification,Verification,Bootstrapping,2
+If a real-valued attribute is normally distributed approximately 95% of all attribute values lie within,One standard deviation of the mean,Two standard deviations of the mean.,Three standard deviations of the mean,Four standard deviations of the mean,2
+A decision tree is built to determine individuals likely to default on an unsecured loan. The null hypothesis states that an individual will not default on the loan. The decision tree correctly classifies 80% of  the instances in a test dataset. Fifteen percent of the mistakes made by the model are type 1 errors. What can be said about the performance of the model? ,The accuracy of the model for correctly determining those individuals who did not default on their loan was at least 75%,The accuracy of the model for correctly determining those individuals who defaulted on their loan was at least 75%,The majority of errors made by the model accepted individuals who defaulted,The majority of errors made by the model rejected individuals who did not default,4
+Bootstrapping allows us to,Choose the same training instance several times,Choose the same test set instance several times,Build models with alternative subsets of the training data several times,Test a model with alternative subsets of the test data several times,1
+A variation of the star schema that allows more than one central fact table,Snowflake schema,Linked star schema,Distributed star schema,Constellation schema,4
+The standard error is defined as the square root of this computation,The sample variance divided by the total number of sample instances,The population variance divided by the total number of sample instances,The sample variance divided by the sample mean,The population variance divided by the sample mean,1
+Neural network training is accomplished by repeatedly passing the training data through the network while,Individual network weights are modified,Training instance attribute values are modified,The ordering of the training instances is modified,Individual network nodes have the coefficients on their corresponding functional parameters modified.,1
+A feed-forward neural network is said to be  fully connected when,All nodes are connected to each other,All nodes at the same layer are connected to each other,All nodes at one layer are connected to all nodes in the next higher layer,All hidden layer nodes are connected to all output layer nodes,3
+Genetic learning can be used to train a feed-forward network. This is accomplished by having each population element represent one possible,Network configuration of nodes and links,Set of training data to be fed through the network,Set of network output values,Set of network connection weights,4
+"With a Kohonen network, the output layer node that wins an input instance is rewarded by having ",A higher probability of winning the next training instance to be presented,Its connect weights modified to more closely match those of the input instance,Its connection weights modified to more closely match those of its neighbours,Neighbouring connection weights modified to become less similar to its own connection weights.,2
+Epochs represent the total number of,Input layer nodes,Passes of the training data through the network,Network nodes,Passes of the test data through the network,1
+"During back propagation training, the purpose of the delta rule is to make weight adjustments to",Minimize the number of times the training data must pass through the network,Minimize the number of times the test data must pass through the network,Minimize the sum of absolute differences between computed and actual outputs,Minimize the sum of squared error differences between computed and actual output,4
+"With a Kohonen network, the output layer node that wins an input instance is rewarded by having ",A higher probability of winning the next training instance to be presented,Its connection weights modified to more closely match those of the input instance,Its connection weights modified to more closely match those of its neighbours.,Neighbouring connection weights modified to become less similar to its own connection weights,2
+The neural network explanation technique used to determine the relative importance of individual input attributes,Sensitivity analysis,Average member technique,Mean squared error analysis,Absolute average technique,1
+ The type of supervised network architecture which does not contain a hidden layer,Back propagation ,Perceptron,Self-organizing map,Genetic,2
+The most widely used metrics and tools to assess a classification models are,Confusion matrix,Cost-sensitive accuracy,Area under the ROC curve,Area above the ROC curve,1
+"When performing regression or classification, which of the following is the correct way to pre-process the data?",PCA -> normalize PCA output -> training,Normalize the data ->PCA -> training,Normalize the data -> PCA -> normalize PCA output -> training,Normalize the data -> PCA -> normalize PCA output ,2
+"You run gradient descent for 15 iterations with a=0.3 and compute J\(theta) after each iteration. You find that the value of (Theta) decreases quickly and then levels off. Based on this, which of the following conclusions seems most plausible?","Rather than using the current value of a, use a larger value of a (say a=1.0)","Rather than using the current value of a, use a smaller value of a (say a=0.1",a=0.3 is an effective choice of learning rate,a=0.5 is an effective choice of learning rate,2
+"To find the minimum or the maximum of a function, we set the gradient to zero because",The value of the gradient at extrema of a function is always zero,Depends on the type of problem,The value of the gradient at extrema of a function is always maximum,The value of the gradient at extrema of a function is always maximum,1
+In which of the following cases will K-means clustering fail to give good results? 1) Data points with outliers 2) Data points with different densities 3) Data points with nonconvex shapes,1 and 2,2 and 3,1 and 3,"1, 2, and 3 ",4
+Which of the following statements about regularization is not correct?,Using too large a value of lambda can cause your hypothesis to underfit the data.,Using too large a value of lambda can cause your hypothesis to overfit the data.,Using a very large value of lambda cannot hurt the performance of your hypothesis.,There exist many smooth functions that exactly pass the given points,4
+"You observe the following while fitting a linear regression to the data: As you increase the amount of training data, the test error decreases and the training error increases. The train error is quite low (almost what you expect it to), while the test error is much higher than the train error. What do you think is the main reason behind this behaviour. Choose the most probable option.",High estimation bias ,High variance ,High model bias ,low variance,2
+Suppose you have a dataset with m=50 examples and n=200000 features for each example. You want to use multivariate linear regression to fit the parameters θ to our data. Should you prefer gradient descent or the normal equation?,"Gradient descent, since (XTX)−1 will be very slow to compute in the normal equation.","Gradient descent, since it will always converge to the optimal θ","The normal equation, since it provides an efficient way to directly find the solution.","The normal equation, since gradient descent might be unable to find the optimal θ.",1
+Pattern recognition structures found in the cytoplasm of host cells include,TLR-4,DC-SIGN and Dectin-1,NOD1/2 and RIG-like receptors,TLR9,3
+"Let X1, X2, and X3 be independent random variables with the continuous uniform distribution
+over [0, 1]. Then P(X1 < X2 < X3) =",0.166666666666667,0.333333333333333,0.25,0.5,1
+How can you prevent a clustering algorithm from getting stuck in bad local optima, Set the same seed value for each run,Use  single value Initializations ,Use multiple random initializations ,Use threshold value initialization,1
+How many functions does the discriminant have?,Many number  of functions,One functions,Two functions,Three functions,1
+The Discriminant function analysis is used to classify individuals into the predetermined groups for  ,Multivariate analogue of analysis of variance,Two  value analogue of analysis of variance,one value analogue of analysis of variance,Multivariate analogue of analysis of variance,1
+The main objective of canonical discriminant analysis is to,"Find the axis of greatest discrimination between groups
+identified a priori",Find the axis of smallest discrimination between groups identified a priori," Attempt to assign  multiple specimens to
+groups.","Test whether the means of those groups along that axis are significantly  same,",1
+Which is used to compare the relative importance of the independent variables,Standardized canonical discriminant function coefficients,Discriminant function,Normal distribution,Covariances,1
+How many centroids will be there in two groups of discriminant  Analysis?,1,2,3,4,2
+Why does  the t- distribution used instead of the normal Distribution in most circumstances?,sample sizes are small in order to estimate confidence,sample sizes are large in order to estimate confidence,"The mean, median, and mode are all equal",The normal distribution cannot model skewed distributions,1
+How does  the t distribution with 10 degrees of freedom compare to  the t- distribution with 20 degrees of freedom?,Continuous probability distribution, Discrete values,Variance is based on many degrees of freedom,Variance is based on many degrees of freedom,1
+Which theorem provides the basis for probabilistic learning that accommodates prior knowledge and takes into account the observed data,Bayes theorem,Automated theorem,Comprehensibility theorem,Learning assisted theorem,1
+What is the consequence between a node and its predecessors while creating Bayesian network?,Functionally dependent,Dependant,Conditionally independent,Both Conditionally dependant & Dependant,1
+The previous probabilities in theorem that are changed with the help of new available information are classified as ,Independent probabilities,Posterior probabilities,Interior probabilities,Dependent probabilities,1
+When would you reduce dimensions in your data?,When the data comes from sensors,When your data set is larger than 500 GB,When you’re using a Linux machine,When you have a large set of features with similar characteristics,4
+What does hyper parameter tuning do?,Optimizes parameters to improve performance of a learning algorithm,Expands the parameter set of a model to improve performance,Specifies the hyper plane that represents linear classifiers,Takes parameter tuning so far that performance degrades,1
+The main function of  discriminant function plot is,Group  the centroids,Separate the centroids,Fix the centroids,Eliminate the centroid,1
+Bayesian classifiers is,A class of learning algorithm that tries to find an optimum classification of a set of examples using the probabilistic theory,Any mechanism employed by a learning system to constrain the search space of a hypothesis,An approach to the design of learning algorithms that is inspired by the fact that when people encounter new situations,Additional acquaintance used by a learning algorithm to facilitate the learning process,1
+What kind of table compares classifications predicted by the model with the actual class labels?,Chaos table,Prediction plot,Confusion matrix,Residual plot,1
+"Which of the following will be Euclidean Distance between the two data point A(1,3) and B(2,3)?",1,2,3,4,1
+When you find noise in data which of the following option would you consider in k-NN?,Will increase the value of k,Will decrease the value of k,Noise can not be dependent on value of k,Decrease the k the variance will increases,1
+What would be the time taken by 1-NN if there are N Very large observations in test data?,N*D, N*D*2,(N*D)/2,N/D,1
+"If every undirected path from node in X to  a node in Y is d-separated by E,then X and Y are",Dependent,Conditionally dependent,Conditionally Independent,Independent,3
+The generalized form of Bayesian network that represents and solve decision problems under uncertain knowledge is known as an,Directed Acyclic Graph,Table of conditional probabilities,Influence diagram,Bayesian model,3
+"If e(m) denotes error for correction of weight then what is formula for error in perceptron learning model: w(m + 1) = w(m) + n(b(m) – s(m)) a(m), where b(m) is desired output, s(m) is actual output, a(m) is input vector and ‘w’ denotes weight",e(m) = n(b(m) – s(m)) a(m),e(m) = n(b(m) – s(m)),e(m) = (b(m) – s(m)),e(m) = (b(n) – s(m)),3
+" If the weight matrix stores association between adjacent pairs of patterns, then network becomes?", Auto associative memory,Astero associative memory,Multidirectional associative memory,Temporal associative memory,1
+Which is meant by assuming any two neighbouring that are both edge pixels with consistent orientation?,Segmentation,Smoothing ,Canny edge Detection,Boundary Detection,3
+Which of the following are cascaded in this method?,"Hd(z), H(z)","1/Hd(z), 1/H(z)"," 1/Hd(z), H(z)","Hd(z), 1/H(z)",4
+"If δ(n) is the input, then what is the ideal output of yd(n)?",δ(n),0,u(n),1,1
+In which type of networks training is completely avoided?,"GRNN
+",PNN,GRNN and PNN,KNN,3
+What is meant by generalized in statement “backpropagation is a generalized delta rule” ?,Because delta rule can be extended to hidden layer units,"Because delta is applied to only input and output layers, thus making it more simple and generalized",It has no significance,Slow convergence,1
+Which of the following is statistical boosting based on additive logistic regression?,gamBoost,gbm,Ada,mboost,1
+"Consider an alternative way of learning a Random Forest where instead of randomly sampling the attributes at each node, we sample a subset of attributes for each tree and build the tree on these features. Would you prefer this method over the original or not, and why?"," Yes, because it reduces the correlation between the resultant trees","Yes, because it reduces the time taken to build the trees due to the decrease in the
+attributes considered","No, because many of the trees will be bad classifiers due to the absence of critical features
+considered in the construction of some of the trees", Bagging increases the variance of the classifier,3
+Which automation error is more likely to occur in an alarm system if the alert threshold or response criterion (beta) is set low?,Random variability may generate a false alarm.,"Random variability may cause a miss, or undetected signal.",Random variability may provide multiple alerts from different sources.,Non-random variability will produce more correct rejections.,1
+Consider the following AR(2) process: yt = 1.5 yt-1 - 0.5 yt-2 + ut This is a,Stationary process,Unit root process,Explosive process,Stationary and unit root process,2
+Which of the following techniques would perform better for reducing dimensions of a data set?,Removing columns which have too many missing values,Removing columns which have high variance in data,Removing columns with dissimilar data trends,Removing columns with similar data trends,1
+"Suppose we are using dimensionality reduction as pre-processing technique, i.e., instead of using all the features, we reduce the data to k dimensions with PCA. And then use these PCA projections as our features. Which of the following statement is correct?",Higher 'k' means more regularization,Higher 'k' means less regularization,Less 'k' means less regularization,Less 'k' means High regularization,2
+In which of the following scenarios is t-SNE better to use than PCA for dimensionality reduction while working on a local machine with minimal computational power?,Dataset with 1 Million entries and 300 features,Dataset with 100000 entries and 310 features,"Dataset with 10,000 entries and 8 features","Dataset with 10,000 entries and 200 features",3

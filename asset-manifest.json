@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Simple-quiz-app/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/Simple-quiz-app/static/js/main.a56d5540.chunk.js",
-    "main.js.map": "/Simple-quiz-app/static/js/main.a56d5540.chunk.js.map",
-    "runtime-main.js": "/Simple-quiz-app/static/js/runtime-main.31e6fe59.js",
-    "runtime-main.js.map": "/Simple-quiz-app/static/js/runtime-main.31e6fe59.js.map",
-    "static/js/2.aa9ce3ad.chunk.js": "/Simple-quiz-app/static/js/2.aa9ce3ad.chunk.js",
-    "static/js/2.aa9ce3ad.chunk.js.map": "/Simple-quiz-app/static/js/2.aa9ce3ad.chunk.js.map",
-    "static/js/3.358f3b24.chunk.js": "/Simple-quiz-app/static/js/3.358f3b24.chunk.js",
-    "static/js/3.358f3b24.chunk.js.map": "/Simple-quiz-app/static/js/3.358f3b24.chunk.js.map",
+    "main.css": "/Simple-quiz-app/static/css/main.e4f4ef16.chunk.css",
+    "main.js": "/Simple-quiz-app/static/js/main.c3752b44.chunk.js",
+    "main.js.map": "/Simple-quiz-app/static/js/main.c3752b44.chunk.js.map",
+    "runtime-main.js": "/Simple-quiz-app/static/js/runtime-main.af9edf75.js",
+    "runtime-main.js.map": "/Simple-quiz-app/static/js/runtime-main.af9edf75.js.map",
+    "static/js/2.ed8e7ce1.chunk.js": "/Simple-quiz-app/static/js/2.ed8e7ce1.chunk.js",
+    "static/js/2.ed8e7ce1.chunk.js.map": "/Simple-quiz-app/static/js/2.ed8e7ce1.chunk.js.map",
+    "static/js/3.766e2201.chunk.js": "/Simple-quiz-app/static/js/3.766e2201.chunk.js",
+    "static/js/3.766e2201.chunk.js.map": "/Simple-quiz-app/static/js/3.766e2201.chunk.js.map",
     "index.html": "/Simple-quiz-app/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/Simple-quiz-app/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.aa9ce3ad.chunk.js.LICENSE.txt": "/Simple-quiz-app/static/js/2.aa9ce3ad.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Simple-quiz-app/static/media/logo.6ce24c58.svg"
+    "static/css/main.e4f4ef16.chunk.css.map": "/Simple-quiz-app/static/css/main.e4f4ef16.chunk.css.map",
+    "static/js/2.ed8e7ce1.chunk.js.LICENSE.txt": "/Simple-quiz-app/static/js/2.ed8e7ce1.chunk.js.LICENSE.txt",
+    "static/media/CNS.a64e8b81.csv": "/Simple-quiz-app/static/media/CNS.a64e8b81.csv",
+    "static/media/ICDWA.520d9233.csv": "/Simple-quiz-app/static/media/ICDWA.520d9233.csv",
+    "static/media/PR.85aa501b.csv": "/Simple-quiz-app/static/media/PR.85aa501b.csv",
+    "static/media/SPM.4dfa8822.csv": "/Simple-quiz-app/static/media/SPM.4dfa8822.csv"
   },
   "entrypoints": [
-    "static/js/runtime-main.31e6fe59.js",
-    "static/js/2.aa9ce3ad.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.a56d5540.chunk.js"
+    "static/js/runtime-main.af9edf75.js",
+    "static/js/2.ed8e7ce1.chunk.js",
+    "static/css/main.e4f4ef16.chunk.css",
+    "static/js/main.c3752b44.chunk.js"
   ]
 }

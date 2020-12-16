@@ -1,0 +1,136 @@
+Question,A,B,C,D,Answer
+"Name the process through which the requirements can be analyzed, modeled and gathered.",Elicitation process,Interviewing,Meeting,Analysis,1
+What is the the analyst’s primary focus throughout evaluation and solution synthesis?,"“Not what, not “how”","“What, also “how”","“What, not “how”","“What, not “when”",3
+The overall role of Software in a larger system is identified during,Requirements engineering,Process engineering,System engineering,Production Engineering,3
+"Many software projects digress from the original scope because of the nature of the software product or technology used, it’s happen in",Product scope changed toward the end of the project life cycle,Research-oriented software development,Defined scope,Fuzzy users,2
+Which of the following symptom is not exhibited when projects destined for trouble frequently?,Protracted integration and late design breakage,Late risk resolution,Non-functional decomposition,Adversarial stakeholder relationships,3
+Which problems are associated with defined scope?,Technology-related problems,Product-related problems,Process-related problems,People-related problems,3
+"Name the process in which a series of predictable steps , will be followed to develop a product.",Software design,Software process,Software Schedule,Framework,2
+What is stated in the introduction of the software requirements specification?,Goals,Objectives,Design,Goals and Objectives of the software,4
+Which activity produces more expenditures for a conventional software project?,Design,Code and Unit Testing,Integration and Test,Deployment,3
+What is the success of a software project that meets all the given objectives?,Project fundamental purpose,Project quality,Project requirement,Project management myth,4
+Which is not an effective software project management focus?,People,Product,Process,Popoularity,4
+What is the abbreviation of PM-CMM?,Product management capability maturity model, Process management capability maturity model,People management capability maturity model,Project management capability maturity model,4
+Which is not a project manager’s activity?,Project design,Project management,Project planning,Project control,1
+Which one of the following is not considered as a risk in project management?,Staff turnover,Testing,Product competition,Specification delays,3
+Which one of the following is not an approach to software cost estimation?,Analytical,Critical,Empirical,Heuristic,2
+What is the process each manager follows during the life of a project?,Project Management,Project Management Life Cycle,Manager life cycle,Cost estimation,2
+Which of the following is the sub-process of process improvement?,Process introduction,De-processification,Process analysis,Process distribution,3
+Which model is presented as the source of the conventional software process?,Spiral model,Prototyping model,Waterfall model,Incremental model,3
+Which software development life cycle phase focuses on risk resolution period?,Testing,Integration,Requirements,Design-coding,2
+How many times finding and fixing a software problem after delivery costs is more than finding and fixing the problem in early design phases?,10,25,75,100,4
+"Which stage is driven by more predictable but larger teams during construction, test and deployment activities?",Engineering,Production,Coding,Testing,2
+Which phase will achieve concurrence among stakeholders on the life-cycle objectives for the project?,Inception,Elaboration,Construction,Transition,1
+Which artifacts capture the information necessary to synchronize stakeholder expectations?,Management,Planning,Operational,Requirements,1
+"Which set includes user deliverables and language notations, executable software and the build scripts, installation scripts and executable target-specific data necessary to use the product in its target environment?",Requirements,Design,Implementation,Deployment,4
+Which is a human-readable representation of an architecture and one of the components of an architectural baseline?,Architecture unit,Architecture description,Tangible artifact,Engineering set,2
+Which view addresses the run-time collaboration issues involved in executing the architecture?,Usecase,Design,Process,Component,3
+Which stage is driven by less predictable but smaller teams during design and synthesis activities?,Engineering,Production,Coding,Testing,1
+Which phase contains an executable architecture prototype built in one or more iterations?,Inception,Elaboration,Construction,Transition,2
+"Which phase contains the resource management, control and process optimization?",Inception,Elaboration,Construction,Transition,3
+Which testing is used to validate the new system against user expectations?,Alpha,Beta,User,System,2
+How many sets are having the artifacts of the process?,Three,Four ,Five ,Six,3
+Which set contains the work breakdown structure?,Requirements,Design,Implementation,Management,4
+Which set contains the spreadsheet and defect tracking tools?,Design,Implementation,Deployment,Management,4
+"When constructing precedence networks, a network should not contain",Requirements,Dangles,Activities,Lables,2
+What is the amount of time an activity can be delayed without delaying connected successor activities?,Total Float,Free Float,Balance Float,Network Float,2
+"What is the name of project management technique which is used to manage uncertain (i.e., time is not known) activities of any project?",CPM,PERT,Forward Pass,Backward Pass,2
+Network diagrams are preferred technique for showing ,Activity resource estimating,Activity listing,Activity attributes,Activity sequencing,4
+What is the he main advantage of using fast tracking ,Shortens project finish time,Reduce the cost,Lengthens project finish time,Increase the cost,1
+Which of the following is not true about the critical path?,The critical path can change in a project,The critical path can be more than one,The critical path is the shortest path in the network diagram,The critical path represents the shortest time it takes to complete the project,2
+What is the use of PERT analysis tool?,Evaluating schedule risk on a project,Developiong and controlling project schedules,Displaying the project information,Accounting the risk constraints,2
+What is the main output of activity sequencing?,Project schedule network diagram, Project scope management plan,Project management plan,Updates to activity list,1
+What are the two attitudes labelled  by Donald McGregor in organizational behaviour?,People and Job,Theory X and Theory Y,Theory Y and Theory Z,Theory U and Theory V,2
+Which of the option is not a notable challenge while scheduling a project?,Deadlines exist.,Independent activities.,Too many workers may be required.,Costly delay,2
+An organization is certified to a stringent environmental standard and uses that as the key differentiator with its competitors. Alternative method is available but involves lot of risk. What should the project team do?,Drop the alternative approach,Work out a mitigation plan,Procure an insurance against the risk,Plan all precautions to avoid the risk,1
+Which is the objective of project manager behind the study of the work processes on a project?,Quality control,Quality planning,Checking adherence to processes,Quality assurance,4
+Which of the following is NOT an input to project plan execution?,Work authorization system,Project plan,Corrective action,Preventive action,1
+What are the two stages of life-cycle?,Engineering and Management,Engineering and Production,Engineering and Manufacturing,Engineering and Design,2
+The following phase achieves concurrence among stakeholders on the life-cycle objectives for the project.,Inception,Elaboration,Construction,Transition,1
+"The activities resource management, control, and process optimization is performed in which phase of the life cycle?",Inception,Elaboration,Construction,Transition,3
+Which phase is entered when a baseline is mature enough to be deployed in the end-user domain?,Inception,Elaboration,Construction,Transition,4
+Which testing is performed by Testers  who are usually internal employees of the organization?,Alpha Testing,Beta Tetsing,System Testing,Unit Testing,1
+"Which process focuses on organizational economics, long-term strategies, and software ROI?",Meta process,Macro process,Micro process,Mini Process,1
+What are the two best known project scheduling techniques?,CMP & PERT,CMP & TERP,CPM & PERT,CPM & REP,3
+Which of the following is the Boehm's development risk?,Late changes to design,Shortfalls in internally supplied components,Developing the wrong user interface,Shortfalls in internally performed tasks,3
+Which activity should not exist in precedence network which leads to errors in subsequent analysis?,Critical activity,Dangling activity,Non-precedence activity,Baseline activity,2
+Which phase has successful test releases?,Construction,Transition,Inception,Elaboration,1
+Which testing is used to validate the new system against user expectations?,Alpha testing,Beta Testing,Gamma Testing,System Testing,1
+Which phase formulates the scope of the project?,Construction,Transition,Inception,Elaboration,3
+Which of the following is the essential activity in transition phase?,Resource management,Elaborating the vision,Formulating the scope of the project,Deployment-specific engineering,4
+Which set is having the user manual artifact?,Requirements Set,Deployment Set,Design Set ,Implementation Set,2
+What is a primitive notation for early life-cycle artifacts?,Visual Basic ,Usecase models,Visual Modeling using UML,Java,3
+Which artifact set is mapped to the visual modeling tools?,Design Set ,Implementation Set,Requirements Set,Deployment Set,1
+Which artifact set is mapped to defect tracking?,Requirements Set,Management Set,Design Set ,Implementation Set,2
+Which artifact set is mapped to installation tools?,Requirements Set,Management Set,Design Set ,Deployment Set,4
+Which artifact  provides all the information necessary to determine whether the project is worth investing in?,Release specifications,Software Development Plan,Business case,Status Assessments,3
+Which of the following is an artifact of Management set?,Test Model,Source code baselines,Vision Document,Software Change Order Data,4
+Which of the following is an artifact of Design set?,User Manual,Architecture description,Work breakdown Structure,Component execubles,2
+Which of the following is an artifact of Implementation set?,Source code baselines,Test Model,Architecture description,User Manual,1
+Which of the following is the intangible design concept?,Architecture description,Architecture baseline,Architecture,Architecture framework,3
+Which architectural view addresses run-time collaboration issues?,Usecase view,Design view,Process view,Component view,1
+Which architectural view addresses executable realization of the system?,Process view,Deployment view,Usecase view,Design view,2
+What is the name of adam's equity theory?,Class Theory ,Object Theory,Content Theory,Process Theory,4
+How is forward pass calculated?,EF = ES + Duration,EF = LS + Duration,EF = LF + Duration,EF = ES + LF,1
+What is PERT formula?,(Optimistic + (2 X Most Likely) + Pessimistic)/4,(Optimistic + (3 X Most Likely) + Pessimistic)/6,(Optimistic + (4 X Most Likely) + Pessimistic)/6,(Optimistic + (2 X Most Likely) + Pessimistic)/6,3
+Which side of the box in network diagram holds Late Finish (LF)?,Bottom-Right,Top-Right,Bottom-Left,Top-Left,1
+ Which shows the activities and their outcomes as a network diagram?,PERT,CPM,COCOMO,Waterfall model,2
+Which makes well organized diagram for the representation of large amount of data?,CPM,COCOMO,Waterfall model,PERT,4
+Which is not improved by organozational behavior?,Motivation,Efficiency,Interpersonal relations,Communication,3
+What is examined by the field of organisational behaviour with a nature of leadership and effective team development?,Interpersonal conflict resolution; motivation of individuals,Organisational control; conflict management,Motivation of individuals; planning, Planning; development,1
+Which shows the scheduled start and completion dates of the project modules?,Activity Bar Chart,Activity histogram,Precedence Network,Project Network,3
+Which testing should be carried out by the customer when the work has been completed?,Unit Testing,Integration Testing,System Testing,Acceptance Testing,4
+What is stressed by Taylor as the need?,Selecting right person for the job,Increasing productivity in job,Choosing better method,Technological advancements,1
+Which of the factors in oldham-hackman model make the job meaningful to the person?,Satisfaction,Task identity,Task variety,Technical skills,2
+Who helps to direct the team's attention to the important issues?,The Sharper,The company worker,The resource investigator,The chair,1
+Who is very good at generating ideas and potential solutions to problems?,The company worker,The team worker, The plant,The completer-finisher,3
+What is the ability to force someone to do something by threatening punishment?,Connection power,Reward power,Legitimate power,Coercive power,4
+What makes decisions participatively but closely supervises their implementation?,Directive autocrat,Permissive autocrat,Directive democrat,Permissive democrat,3
+Which is based on the attractiveness of the leader?,Expert power,Information power,Referent power,Connection power,3
+What are the two factors involved in Herzberg's two-factor theory?,Performance or technical factors,Hygiene or maintenance factors,Motivation or satisfaction factors,Motivation or characteristics factors,2
+Which is the process of stimulating people to actions to accomplish the goals?,Bonus,Motivation,Performance-based incentive,Promotion,2
+What are the two essential steps common to the development of computer programs?,Analysis and Design,Design and Coding,Analysis and Testing,Analysis and Coding,4
+Most unsuccessful projects exhibit one of the following characteristics.,An overemphasis on research and development,An overemphasis on implementation,An overemphasis on production,An overemphasis on design,1
+What is engineering stage?,Driven by less predictable but smaller teams doing analysis activities.,Driven by less predictable but smaller teams doing design and synthesis activities.,"Driven by more predictable but larger teams doing construction, test, and deployment activities.",Driven by more predictable but larger teams doing implementation activities.,2
+What are the five sets of artifacts?,"Analysis, Design, Coding, Testing, and Maintenance","Inception, Elaboration, Design, Construction, and Transition","Inception, Elaboration, Construction, Transition and Maintenance","Management, Requirements, Design, Implementaion and Deployment.",4
+What are the first level WBS elements?,Structures,Workflows,Life-cycle phases,Artifacts,2
+Which WBS element is having the low fidelity in Inception phase?,Mnagement,Environment,Requirements,Deployment,4
+Which phase estimates the cost and schedule for the entire project?,Inception,Elaboration,Construction,Transition,1
+Which of the following is the primary objective of transition phase?,Achieving adequate quality.,Achieving user self-supportability,Baselining the vision,Estimating potential risks,2
+Which of the following is the essential activity in inception phase?,Elaborating the vision,Resource management,Deployment-specific engineerig,Planning and preparing a business case,4
+What is Architecture baseline?,Design of a software system,A slice of information across the engineering artifact sets sufficient to satisfy all stakeholders,An organized subset of information extracted from the design set model.,Most critical technical product of a software project,2
+What is the primary objective of inception phase?,Baselining the vision,Achieving useful versions,Estimating potential risks,Achieving user self-supportability,3
+Which of the following is the essential activity in transition phase?,Resource management,Elaborating the process,Synthesizing the architecture,Deployment-specific engineering,4
+What are the critical factors in software project success?,Good work breakdown structure and its synchronization,Good work product structure and its synchronization,Good work sequence structure and its synchronization,Good work list structure and its synchronization,1
+What is the degree to which the job requires the jobholders to identify and complete a workpiece with a visible outcome?,Skill Variety,Task Significance,Task Identity,User self-supportability,3
+What is Early Start (ES) ?,Maximum EF value from immediate Successor(s),Maximum EF value from immediate Predecessor(s),Minimum EF value from immediate Predecessor(s),Minimum EF value from immediate Successor(s),2
+How to apply Backward Pass to calculate Late Start (LS)?,LS = EF – Duration,LS = ES – Duration,LS = LF – Duration,LS = FS– Duration,3
+What is Pessimistic time?,The maximum amount of time it should take to complete a task,The best estimate of how much time will be required to complete a task,The least amount of time it can take to complete a task,Estimate of how long it should take to complete a task.,1
+What is CPM?,"Technique of project management which is used to manage only uncertain (i.e., time is not known) activities of any project.","Technique of project management which is used to manage only certain (i.e., time is known) activities of any project.",Technique of project management which is used to manage only one activity.,Technique of project management which is used to manage more activities,2
+What are the three point estimates in PERT?,"Optimistic, Hopeful and More likely","Optimistic, Pessimistic and More likely","Higher, Pessimistic and More likely","Lower, Pessimistic and More likely",2
+What is Optimistic time?,The maximum amount of time it should take to complete a task,Estimate of how long it should take to complete a task.,The best estimate of how much time will be required to complete a task,The least amount of time it can take to complete a task,4
+What is Critical Path?,Indicates the longest possible continuous path from the start to the end of a task or event,Indicates the shortest path from the start to the end of a task or event,Refers to handling tasks or activities in parallel,Shortening the amount of time to do a critical task,1
+What is Fast Tracking?,It helps maximize the use of resources.,It enables project managers to better estimate or determine a more definite completion date,Refers to handling tasks or activities in seriel,Refers to handling tasks or activities in parallel,4
+What are the three psychological states related in high motivation in oldham hackman job characteristics model?,"Responsibility, Knowledge and Perfection","Meaningfulness of work, Responsibility, and Knowledge of outcomes ","Responsibility, Knowledge and Skill Variety","Meaningfulness of work, Responsibility, and Completion within deadline",2
+What are the five core job characteristics in oldham hackman job characteristics model?,"skill variety, task identity, task significance, autonomy, and feedback","Tool variety, task identity, task order, autonomy, and feedback","skill variety, task identity, task significant, Result, and feedback","skill variety, task execution, task significance, autonomy, and Result",1
+What is Most likely time ?,The best estimate of how much time will be required to complete a task,The least amount of time it can take to complete a task,Estimate of how long it should take to complete a task.,The maximum amount of time it should take to complete a task,3
+What is Float/Slack?,Refers to the amount of time a task can be delayed without resulting in an overall delay in completion of other tasks,The earliest time by which a successor event/task can follow a prior event/task,Refers to the amount of time needed to finish a task without affecting subsequent tasks,Refers to the amount of time a task can be performed without any delay,1
+What is RMMM?,"Risk Monitoring, Mitigation and Management","Risk Management, Monitoring and Mitigation","Risk Mitigation, Monitoring, and Management","Risk Management,  Mitigation, and Monitoring",3
+What is meant by generating a task list in activity based approach?,Creating Work Breakdown List,Creating Work Breakdown System,Creating Work Breakdown Group,Creating Work Breakdown Structure,4
+What is Expected time?,The least amount of time it can take to complete a task,The best estimate of how much time will be required to complete a task,Estimate of how long it should take to complete a task.,The maximum amount of time it should take to complete a task,2
+What is AoA and AoN?,Acvity on Arrow and Activity on Node Link,Acvity on Algorithm and Activity on Node,Acvity on Arrow and Activity on Node,Acvity on Arrow and Activity on Need,3
+Which of the following is the evaluation criteria in construction phase?,Are the stakeholders ready for transition to the user community?,Is the architecture stable?,Do all stakeholders concur on the scope definition and cost and schedule estimates?,Is the vision stable?,1
+What is intrinsic motivation?,Motivated to perform an activity for its own sake and personal rewards,Motivated to perform an activity for its public rewards,Motivated to perform an activity to avoid encouragement,Motivated to perform an activity to earn a reward or avoid punishment,1
+What are the two motivation theories?,Content Theories & Product Theories,Class Theories & Process Theories,Content Theories & Process Theories,Class Theories & Object Theories,3
+Maslow's Need Hierarchy and Herzberg's motivation hygeine theory is grouped under,Content Theory,Process Theory,Class Theory ,Object Theory,1
+What are the things in motivation triangle?,"Management, Tools and Training, and Timely Feedback","Task Ownership, Tools and Training, and Timely Feedback","Task Ownership, Tools and Training, and Task Outcome","Task Ownership, Work flow, and Timely Feedback",2
+Which of the maintenance of project scheduling technique is expensive and complex? ,PERT,CPM,Gantt Chart,Task List,2
+"Which is considered as a  key to employee motivation in job characteristics model, designed by Hackman and Oldham?",Product,Process,Task,Time,3
+What is extrinsic motivation?,Motivated to perform an activity for its own sake and personal rewards,Motivated to perform an activity for its public rewards,Motivated to perform an activity to avoid encouragement,Motivated to perform an activity to earn a reward or avoid punishment,4
+When motivation will be high according to expectancy theory?,When instrumentality and perceived value is high,When expentancy and instrumentality is high,When expentancy is high,"When expentancy, instrumentality and perceived value are high",4
+What is Theory X?,Software developers are sociable than other workers,The belief that working harder leads to better performance,"There is a need for coercion, direction, and control of people at work",Work is as natural as rest or play,3
+Name two factors controbuted to satisfaction in Oldham-Hackman job characteristice model.,Performance and Quality,Autonomy and Feedback,Motivation and Performance,Quality and Feedback,2
+Who is suitable candidate?,One who can actually do the job well,One who is having previous experience,One who is having right paper qualifications,One who is trained well,1
+Why is it important to trust the team?,High trust teams do not have to be accountable to each other,High trust teams do not require a user representative,The Project Manager does not then have to keep a project schedule,The presence of trust is positively correlated with the team performance,4
+What is the main feature(s) of Maslow’s need hierarchy theory?,Theory of human motives,Classifies basic human needs in a hierarchy,Theory of human motivation,Theory of human performance,3
+What are the types of motivation?,Intrinsic and Extrinsic motivation,Internal and External motivation,Expert and Skilled motivation,Week and Strong motivatiom,1
