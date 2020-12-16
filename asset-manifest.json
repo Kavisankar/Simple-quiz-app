@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/simple-quiz-app/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/simple-quiz-app/static/js/main.a56d5540.chunk.js",
-    "main.js.map": "/simple-quiz-app/static/js/main.a56d5540.chunk.js.map",
-    "runtime-main.js": "/simple-quiz-app/static/js/runtime-main.51d26a0b.js",
-    "runtime-main.js.map": "/simple-quiz-app/static/js/runtime-main.51d26a0b.js.map",
-    "static/js/2.aa9ce3ad.chunk.js": "/simple-quiz-app/static/js/2.aa9ce3ad.chunk.js",
-    "static/js/2.aa9ce3ad.chunk.js.map": "/simple-quiz-app/static/js/2.aa9ce3ad.chunk.js.map",
-    "static/js/3.358f3b24.chunk.js": "/simple-quiz-app/static/js/3.358f3b24.chunk.js",
-    "static/js/3.358f3b24.chunk.js.map": "/simple-quiz-app/static/js/3.358f3b24.chunk.js.map",
-    "index.html": "/simple-quiz-app/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/simple-quiz-app/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.aa9ce3ad.chunk.js.LICENSE.txt": "/simple-quiz-app/static/js/2.aa9ce3ad.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/simple-quiz-app/static/media/logo.6ce24c58.svg"
+    "main.css": "/Simple-quiz-app/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/Simple-quiz-app/static/js/main.a56d5540.chunk.js",
+    "main.js.map": "/Simple-quiz-app/static/js/main.a56d5540.chunk.js.map",
+    "runtime-main.js": "/Simple-quiz-app/static/js/runtime-main.31e6fe59.js",
+    "runtime-main.js.map": "/Simple-quiz-app/static/js/runtime-main.31e6fe59.js.map",
+    "static/js/2.aa9ce3ad.chunk.js": "/Simple-quiz-app/static/js/2.aa9ce3ad.chunk.js",
+    "static/js/2.aa9ce3ad.chunk.js.map": "/Simple-quiz-app/static/js/2.aa9ce3ad.chunk.js.map",
+    "static/js/3.358f3b24.chunk.js": "/Simple-quiz-app/static/js/3.358f3b24.chunk.js",
+    "static/js/3.358f3b24.chunk.js.map": "/Simple-quiz-app/static/js/3.358f3b24.chunk.js.map",
+    "index.html": "/Simple-quiz-app/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/Simple-quiz-app/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.aa9ce3ad.chunk.js.LICENSE.txt": "/Simple-quiz-app/static/js/2.aa9ce3ad.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Simple-quiz-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.51d26a0b.js",
+    "static/js/runtime-main.31e6fe59.js",
     "static/js/2.aa9ce3ad.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
     "static/js/main.a56d5540.chunk.js"
