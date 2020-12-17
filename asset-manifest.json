@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Simple-quiz-app/static/css/main.e4f4ef16.chunk.css",
-    "main.js": "/Simple-quiz-app/static/js/main.c3752b44.chunk.js",
-    "main.js.map": "/Simple-quiz-app/static/js/main.c3752b44.chunk.js.map",
+    "main.css": "/Simple-quiz-app/static/css/main.315153fd.chunk.css",
+    "main.js": "/Simple-quiz-app/static/js/main.f5b9b591.chunk.js",
+    "main.js.map": "/Simple-quiz-app/static/js/main.f5b9b591.chunk.js.map",
     "runtime-main.js": "/Simple-quiz-app/static/js/runtime-main.af9edf75.js",
     "runtime-main.js.map": "/Simple-quiz-app/static/js/runtime-main.af9edf75.js.map",
     "static/js/2.ed8e7ce1.chunk.js": "/Simple-quiz-app/static/js/2.ed8e7ce1.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.766e2201.chunk.js": "/Simple-quiz-app/static/js/3.766e2201.chunk.js",
     "static/js/3.766e2201.chunk.js.map": "/Simple-quiz-app/static/js/3.766e2201.chunk.js.map",
     "index.html": "/Simple-quiz-app/index.html",
-    "static/css/main.e4f4ef16.chunk.css.map": "/Simple-quiz-app/static/css/main.e4f4ef16.chunk.css.map",
+    "static/css/main.315153fd.chunk.css.map": "/Simple-quiz-app/static/css/main.315153fd.chunk.css.map",
     "static/js/2.ed8e7ce1.chunk.js.LICENSE.txt": "/Simple-quiz-app/static/js/2.ed8e7ce1.chunk.js.LICENSE.txt",
-    "static/media/CNS.a64e8b81.csv": "/Simple-quiz-app/static/media/CNS.a64e8b81.csv",
+    "static/media/CNS.779874dd.csv": "/Simple-quiz-app/static/media/CNS.779874dd.csv",
     "static/media/ICDWA.520d9233.csv": "/Simple-quiz-app/static/media/ICDWA.520d9233.csv",
     "static/media/PR.85aa501b.csv": "/Simple-quiz-app/static/media/PR.85aa501b.csv",
     "static/media/SPM.4dfa8822.csv": "/Simple-quiz-app/static/media/SPM.4dfa8822.csv"
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.af9edf75.js",
     "static/js/2.ed8e7ce1.chunk.js",
-    "static/css/main.e4f4ef16.chunk.css",
-    "static/js/main.c3752b44.chunk.js"
+    "static/css/main.315153fd.chunk.css",
+    "static/js/main.f5b9b591.chunk.js"
   ]
 }

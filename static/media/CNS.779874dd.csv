@@ -62,8 +62,7 @@ Main function of proxy application gateway firewall is,to allow corporate users 
 "For a client-server authentication, the client requests from the KDC a ________ for access to a specific asset.",Ticket,Local,Token,User,1
 The four Primary Security Principles related to messages are,"Confidentiality, Integrity, Non repudiation and Authentication","Confidentiality, Access Control, Integrity, Non repudiation","Authentication, Authorization, Availability, Integrity","Availability, Authorization, Confidentiality, Integrity.",1
 Which cryptographic algorithm is recommended by X.509 Certificate?,RSA,DES,AES,Rabin,1
-"Authentication service that can be used in windows platform is 
-",DES,RSA,MD5,Kerberos,4
+"Authentication service that can be used in windows platform is",DES,RSA,MD5,Kerberos,4
 Kerberos is an authentication scheme that can be used for ,Public Key Cryptography,Digital Signature,Hash Function,Single Sign On,2
 CMS stands for?,Cipher Message Syntax,Certificate Message Session,Cryptographic Message Syntax,Cipher Mode Standard,3
 Which of the following refers to programs that surreptitiously monitor activity on a computer system and report that information to others without the user's consent?,Malware,Botnet,Trojan horse,Spyware,4
