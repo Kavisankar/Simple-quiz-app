@@ -16,7 +16,8 @@ export default class HomeScreen extends Component {
             questions: {},
             current: 0,
             mark: 0,
-            showAnswer: false
+            showAnswer: false,
+            viewOnlyAnswers: false
         };
         this.formRef = React.createRef();
     }
@@ -39,7 +40,7 @@ export default class HomeScreen extends Component {
         }
         questions = await csv(QB);
         //console.log(questions);
-        for( var i = questions.length; i > 0; i-- ){
+        for( var i = questions.length-1; i > 0; i-- ){
             var j = Math.floor(Math.random() * (i + 1));
             var temp = questions[i];
             questions[i] = questions[j];
@@ -50,9 +51,11 @@ export default class HomeScreen extends Component {
 
     _next = () => {
         const curr = this.state.current + 1;
-        var radios = this.formRef.current.elements['customRadio'];
-        for (var i=0, len=radios.length; i<len; i++) {
-            radios[i].checked = false;
+        if(!this.state.viewOnlyAnswers){
+            var radios = this.formRef.current.elements['customRadio'];
+            for (var i=0, len=radios.length; i<len; i++) {
+                radios[i].checked = false;
+            }
         }
         if(curr === this.state.questions.length){
             this.setState({ testStatusCode: 2 });
@@ -80,6 +83,40 @@ export default class HomeScreen extends Component {
         }
     }
 
+    _getAnswer = (question) => {
+        var ans = parseInt(question.Answer[0]);
+        var res;
+        if(ans === 1){
+            res = question.A;
+        }
+        else if(ans === 2){
+            res = question.B;
+        }
+        else if(ans === 3){
+            res = question.C;
+        }
+        else{
+            res = question.D;
+        }
+        if(question.Answer.length > 1){
+            ans = parseInt(question.Answer[3]);
+            res += ", \n and \n";
+            if(ans === 1){
+                res += question.A;
+            }
+            else if(ans === 2){
+                res += question.B;
+            }
+            else if(ans === 3){
+                res += question.C;
+            }
+            else{
+                res += question.D;
+            }
+        }
+        return res;
+    }
+
     render() {
         if(this.state.error) {
             throw this.state.error;
@@ -96,7 +133,11 @@ export default class HomeScreen extends Component {
                             <strong className="my-text-lg">Online Quiz Test</strong>
                             <i className="fas fa-user-graduate fa-2x ml-2 d-inline-block"></i>
                         </header>
-                        <section className="p-3 pb-0 text-myc">
+                        <section className="p-3 pb-0">
+                            <div className="d-flex justify-content-center mb-3">
+                                <input type="checkbox" defaultChecked={this.state.viewOnlyAnswers } onChange={ () => { this.setState({viewOnlyAnswers: !this.state.viewOnlyAnswers}) }} />
+                                <span className="pl-2">Check this to view only answers</span>
+                            </div>
                             <div className="d-flex justify-content-center m-2">
                                 <button type="button" className="btn my-btn px-3 mx-2 my-tab" onClick={this._loadQuestions.bind(this, 1)}>
                                     Cryptography and Network Security
@@ -141,13 +182,33 @@ export default class HomeScreen extends Component {
                 </div>
             );
         }
+        if(this.state.viewOnlyAnswers){
+            return (
+                <div className="d-flex flex-column bg-myc h-100 justify-content-center align-items-center">
+                    <div className="model-body rounded-lg ">
+                        <section className="p-3 pb-0 text-dark">
+                            <strong>
+                                <div className="my-3">{this.state.current + 1}) {this.state.questions[this.state.current].Question}</div>
+                            </strong>
+                            <div className="d-flex justify-content-center mt-3 text-center text-ws">Answer: <br />{this._getAnswer(this.state.questions[this.state.current])}</div>
+                            <div className="d-flex justify-content-center mt-1">
+                                <button type="button" className="btn my-btn px-3 mx-2" onClick={this._next.bind(this)} >
+                                    <i className="fas fa-sign-in-alt mr-1"></i>
+                                    <span className="text-bold">Next</span>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            )
+        }
         return (
             <div className="d-flex flex-column bg-myc h-100 justify-content-center align-items-center">
                 <div className="score bg-white rounded-lg py-2 px-4">
                     Score: {this.state.mark} / {this.state.questions.length}
                 </div>
                 <div className="model-body rounded-lg ">
-                    <section className="p-3 pb-0 text-myc">
+                    <section className="p-3 pb-0 text-dark">
                         <strong>
                             <div className="my-3">{this.state.current + 1}) {this.state.questions[this.state.current].Question}</div>
                         </strong>
@@ -182,10 +243,6 @@ export default class HomeScreen extends Component {
                                 </>
                             ) : (
                                 <div className="d-flex justify-content-center mt-3">
-                                    <button type="button" className="btn my-btn px-3 mx-2" onClick={() => {this.setState({showAnswer: true})}} >
-                                        <i className="fas fa-sign-in-alt mr-1"></i>
-                                        <span className="text-bold">View answer</span>
-                                    </button>
                                     <button type="button" className="btn my-btn px-3 mx-2" onClick={this._evaluate.bind(this)} >
                                         <i className="fas fa-sign-in-alt mr-1"></i>
                                         <span className="text-bold">Submit</span>

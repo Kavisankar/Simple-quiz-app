@@ -8,8 +8,8 @@
 }
 
 .score {
-  position: absolute;
-  top: 2rem;
+  position: relative;
+  margin: 2rem;
 }
 
 .my-model {
@@ -93,7 +93,7 @@
 }
 
 .text-myc-bold {
-  color: #0f063d;
+  color: #4323e2;
   font-weight: 600;
 }
 
@@ -178,6 +178,9 @@ a {
   color: #0f063d;
 }
 
+.text-ws {
+  white-space: pre-line;
+}
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
