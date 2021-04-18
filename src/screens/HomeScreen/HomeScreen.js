@@ -5,6 +5,8 @@ import CNS from './CNS.csv';
 import PR from './PR.csv';
 import SPM from './SPM.csv';
 import ICDWA from './ICDWA.csv';
+import FSIPD from './FSIPD.csv';
+import ED from './ED.csv';
 
 export default class HomeScreen extends Component {
     constructor(props) {
@@ -35,8 +37,14 @@ export default class HomeScreen extends Component {
         else if(option === 3){
             QB = SPM;
         }
-        else{
+        else if(option === 4){
             QB = ICDWA;
+        }
+        else if(option === 5){
+            QB = FSIPD;
+        }
+        else if(option === 6){
+            QB = ED;
         }
         questions = await csv(QB);
         //console.log(questions);
@@ -156,6 +164,16 @@ export default class HomeScreen extends Component {
                             <div className="d-flex justify-content-center m-2">
                                 <button type="button" className="btn my-btn px-3 mx-2 my-tab" onClick={this._loadQuestions.bind(this, 4)}>
                                     Indian Constitution, Democracy And World Affairs
+                                </button>
+                            </div>
+                            <div className="d-flex justify-content-center m-2">
+                                <button type="button" className="btn my-btn px-3 mx-2 my-tab" onClick={this._loadQuestions.bind(this, 5)}>
+                                    Foundation Skills in Integrated Product Development
+                                </button>
+                            </div>
+                            <div className="d-flex justify-content-center m-2">
+                                <button type="button" className="btn my-btn px-3 mx-2 my-tab" onClick={this._loadQuestions.bind(this, 6)}>
+                                    Entreprenueuship Development
                                 </button>
                             </div>
                         </section>
